@@ -1,0 +1,270 @@
+/* Section for ShoppingCart.php */
+
+#Cart table {
+	width: 100%;
+	background-color: #F0F0F0;
+}
+
+#Cart table td {
+	background-color: #FFFFFF;
+}
+
+.CartHeader {
+	color: #FFF;
+	margin-bottom: 0px;
+	text-align: left;
+}
+
+.CartTitle {
+	display: inline-block;
+    background: #F0F0F0;
+    padding: 10px 10px 6px 10px;
+    color: black;
+}
+
+a.RemoveItem, a.RemoveItem:visited {
+	color: #D60202;
+}
+
+#Cart {
+	width: 50%;
+	position: static;
+	padding-top: 25px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+#buttons {
+	width: 50%;
+	position: static;
+	padding-bottom: 25px;
+	left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.otherbtn {  
+    background-color: rgb(70, 103, 163);  
+    color: white;  
+    padding: 15px;   
+    width: 175px;
+    height: 50px;
+    text-transform: uppercase;
+    border: none;
+}  
+
+.otherbtn:hover {
+	background-color: black;
+}
+
+#ToProducts {
+	float: left;
+}
+
+#ToCheckout {
+	float: right;
+}
+
+.CartBody {
+	background-image: linear-gradient(to bottom right, #b58ecc, #5de6de);
+}
+
+#CartContent {
+	margin-top:auto;
+	margin-bottom:auto;
+	padding-bottom: 25px;
+}
+
+td {
+	border-bottom: #F0F0F0 1px solid;
+}
+
+#left{
+	text-align: left;
+	width: 10%;
+}
+
+#centre{
+	text-align: center;
+}
+
+#right{
+	text-align: right;
+}
+
+/* End of section for ShoppingCart.php */
+
+/* Section for Checkout.php and Invoice.php */
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 14px;
+	background-image: linear-gradient(to bottom right, #b58ecc, #5de6de);
+}
+
+#H2_Checkout {
+    width: 100%;
+    float: left;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#H3_Checkout {
+    width: 100%;
+    float: left;
+    margin-top: 25px;
+    margin-bottom: 0px;
+}
+
+.checkout_container {
+    width: 500px;
+    height: 600px;
+    background-color: #ffffff;
+    border:  1px solid #d2d2d2;
+    padding: 30px;
+    position: static;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.invoice_container {
+    width: 500px;
+    height: 300px;
+    background-color: #ffffff;
+    border:  1px solid #d2d2d2;
+    padding: 30px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+input {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.full_page, .half_page, .one_quater_page {
+    display:block;
+    float: left;
+    margin-top: 15px;
+    padding-right: 4%;
+    padding-left: 4%;
+    height: 45px;
+}
+
+.half_page {
+    width: 42%;
+}
+
+#fname, #lname, #ccnumber {
+    width: 88.1%;
+}
+
+#ccnumber {
+    text-align: center;
+}
+
+.full_page, .submit {
+    width: 92%;
+}
+
+#email, #pnumber, #ccname {
+    width: 94.7%;
+}
+
+.one_quater_page {
+    width: 17%;
+}
+
+#valid_thru, #cvv {
+    width: 74%;
+    text-align: center;
+}
+
+input[type="submit"]{
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.otherbtn {  
+    position: static;
+    background-color: rgb(70, 103, 163);  
+    color: white;  
+    padding: 15px;   
+    width: 175px;
+    height: 50px;
+    text-transform: uppercase;
+    border: none;
+}  
+
+.otherbtn:hover {
+	background-color: black;
+}
+
+/* End of section for Checkout.php and Invoice.php */
+
+/* Section for FAQ css */
+
+.FAQ {
+    margin-left:40px;
+    margin-bottom:20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url('https://ak.picdn.net/shutterstock/videos/1016332105/thumb/1.jpg');
+    background-size: 400px;
+    background-position: center top;
+}
+
+.collapsible {
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 60%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    margin-bottom: 20px;
+    margin-left:40px;
+  }
+
+  .collapsible:after {
+    content: "\002B";
+    font-size: 20px;
+    color: grey;
+    float:right;
+    margin-left: 10px;
+  }
+  
+  .active, .collapsible:hover {
+    background-color: #ccc;
+  }
+
+  .active {
+    font-weight: bold;
+  }
+
+  .active:after {
+    content: "\2013"; 
+    font-size: 20px;
+  }
+
+  .content {
+    width:58%;
+    padding-left:10px;
+    padding-right:10px;
+    padding-bottom:20px;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+    margin-left:40px;
+    margin-right:40px;
+    margin-top: -25px;
+  }
